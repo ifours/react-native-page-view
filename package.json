@@ -1,0 +1,29 @@
+{
+  "name": "@ifours/react-native-page-view",
+  "version": "0.0.1",
+  "description": "Enhanced SafeAreaView for react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifours/react-native-page-view.git"
+  },
+  "keywords": [
+    "react-native",
+    "iPhoneX",
+    "SafeAreaView"
+  ],
+  "author": "Ilja Satchok (ilia.fours@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifours/react-native-page-view/issues"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-safe-area-view": "^0.7.0"
+  },
+  "homepage": "https://github.com/ifours/react-native-page-view#readme"
+}
