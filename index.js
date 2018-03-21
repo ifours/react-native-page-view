@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import SafeAreaView from 'react-native-safe-area-view';
 
 export default class PageView extends Component {
-  renderOverlaySaveArea() {
+  renderOverlaySafeArea() {
     const { overlayStyles } = this.props;
     return (
       <SafeAreaView style={[styles.overlay, overlayStyles]} />
@@ -29,7 +29,7 @@ export default class PageView extends Component {
     return (
       <SafeAreaView style={pageViewStyles} {...pageViewProps} {...rest}>
         {children}
-        {translucent && this.renderOverlaySaveArea()}
+        {translucent && this.renderOverlaySafeArea()}
       </SafeAreaView>
     );
   }
